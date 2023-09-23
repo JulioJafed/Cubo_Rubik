@@ -1479,7 +1479,7 @@ public class FXMLCuboController implements Initializable {
 
     void record() {
         // Ruta de la carpeta donde deseas guardar el archivo
-        String carpeta = "C://Users//gatov//OneDrive//Escritorio//CarpetaJava//";
+        String carpeta = "C://Users//julio//OneDrive//Escritorio//CarpetaJava//";
 
         // Nombre del archivo que deseas crear
         String nombreArchivo = "record.txt";
@@ -1807,7 +1807,7 @@ public class FXMLCuboController implements Initializable {
         }
 
         // Ruta completa del archivo que deseas leer
-        String rutaArchivo = "C://Users//gatov//OneDrive//Escritorio//CarpetaJava//record.txt";
+        String rutaArchivo = "C://Users//julio//OneDrive//Escritorio//CarpetaJava//record.txt";
 
         try {
             // Crear un objeto FileReader para leer el archivo
@@ -1854,7 +1854,7 @@ public class FXMLCuboController implements Initializable {
 
     @FXML
     private void Guardar(ActionEvent event) throws IOException {
-        String carpeta = "C://Users//gatov//OneDrive//Escritorio//CarpetaJava//";
+        String carpeta = "C://Users//julio//OneDrive//Escritorio//CarpetaJava//";
 
         // Nombre del archivo que deseas crear
         String nombreArchivo = "juego.txt";
@@ -1869,7 +1869,7 @@ public class FXMLCuboController implements Initializable {
         // Crear un objeto FileWriter para escribir en el archivo
         FileWriter archivo = new FileWriter(carpeta + nombreArchivo);
 
-        String carpetaDos = "C://Users//gatov//OneDrive//Escritorio//CarpetaJava//";
+        String carpetaDos = "C://Users//julio//OneDrive//Escritorio//CarpetaJava//";
 
         // Nombre del archivo que deseas crear
         String nombreArchivoDos = "datos.txt";

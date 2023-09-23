@@ -173,7 +173,7 @@ public class FXMLCuboControllerContinuar implements Initializable {
 
         // Ruta completa del archivo que deseas leer
         String rutaArchivoDos = "C://Users//julio//OneDrive//Escritorio//CarpetaJava//juego.txt";
-
+        
         try {
             // Crear un objeto FileReader para leer el archivo
             FileReader archivoDos = new FileReader(rutaArchivoDos);
